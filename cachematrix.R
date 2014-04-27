@@ -2,7 +2,7 @@
 ## caching the inverse of a matrix rather than compute it repeatedly. 
 ## The coding below is to write a pair of functions that cache the inverse of a matrix.
 ## Usage Example:
-## m <- mainCacheMatrix(matrix(1:4, 2, 2))
+## m <- makeCacheMatrix(matrix(1:4, 2, 2))
 ## cacheSolve(m)
 
 ## This function creates a special "matrix" object that can cache its inverse.
